@@ -14,7 +14,7 @@ from tensorflow.keras.layers import Add
 import tensorflow as tf
 
 
-# implementation of resnet  with tf datasets
+# implementation of ResNet50  with tf datasets
 
 
 def res_identity(x, filters):
