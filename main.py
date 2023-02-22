@@ -2,7 +2,6 @@ import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 from data import make_tf
 from model import create_model
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 import tensorflow as tf
 
 test_dataset, test_steps = make_tf('test_dataset.csv', 64)
