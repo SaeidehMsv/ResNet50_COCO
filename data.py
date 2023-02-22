@@ -22,7 +22,7 @@ def make_tf(filename, batch_size):
     train_steps = len(filenames)//batch_size
     return dataset, train_steps
 
-#
+
 # if __name__ == '__main__':
 #     iterator = make_tf('filenames.csv', 1)[0].take(1).as_numpy_iterator()
 #     for images, bbox in iterator:
